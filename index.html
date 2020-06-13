@@ -1,0 +1,37 @@
+<html>
+
+    <head>
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+        <title>Editor em Tempo Real</title>
+        
+        
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        
+        <script type="text/javascript" src="functions.js"></script>
+        
+        <input type="submit" value="APAGAR" id="button" onclick="apagar()">
+        
+        <div class="main">
+            <textarea id="editor-textarea" onkeyup="atualizar()" placeholder="Codifique Aqui..."></textarea>
+            <iframe id ="viewer"></iframe>
+        </div>
+        
+        <div class="tres"></div>
+        
+
+        <div>
+            <span class="copyright">
+                Copyright &copy; 2020 William Soares
+            </span>
+        
+        </div>
+    
+    </body>
+
+</html>
